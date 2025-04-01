@@ -91,5 +91,21 @@ universal_laws = [
 # Choose a random Universal Law
 law, focus = random.choice(universal_laws)
 
-print("\n🌀 Universal Law Focus: ", law)
-print("🧭 Reflection: ", focus)
+print("\n🌐 Universal Law Focus: ", law)
+print("🔍 Reflection: ", focus)
+
+# Save the output to a journal file
+with open("manifestation_journal.txt", "a") as file:
+    file.write("\n✨ Manifestation Journal Entry ✨\n")
+    file.write(f"📅 Date: {now.strftime('%Y-%m-%d %H:%M:%S')}\n")
+    file.write(f"💰 Intent: {intent}\n")
+    file.write(f"💖 What I want to keep: {keep}\n")
+    file.write(f"🔷 Sacred Geometry Anchor: {chosen_geometry}\n")
+    file.write(f"🔮 Affirmation: {chosen_affirmation}\n")
+    file.write(f"🌿 Elemental Action: {element_action}\n")
+    file.write(f"🧘 Visualization: {chosen_visual}\n")
+    file.write(f"🎵 Frequency Suggestion: {frequency} Hz\n")
+    file.write(f"  👉 Use this frequency to support your manifestation: {meaning}\n")
+    file.write(f"🌐 Universal Law Focus: {law}\n")
+    file.write(f"🔍 Reflection: {focus}\n")
+    file.write(f"🔁 Reminder: Do your 3-6-9 method today.\n\n")
