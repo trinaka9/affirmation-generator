@@ -72,12 +72,6 @@ frequency, meaning = random.choice(frequencies)
 print("🎶 Frequency Suggestion: ", frequency)
 print("   🌀 Use this frequency to support your manifestation: " + meaning)
 
-# Choose a random Universal Law
-law, focus = random.choice(universal_laws)
-
-print("\n🌀 Universal Law Focus: ", law)
-print("🧭 Reflection: ", focus)
-
 # ✨ Add list of Universal Laws and focus prompts
 universal_laws = [
     ("Law of Divine Oneness", "Everything is connected. Practice seeing unity in all things."),
@@ -93,3 +87,9 @@ universal_laws = [
     ("Law of Rhythm", "Life has cycles. Flow with the ups and downs."),
     ("Law of Gender", "Balance the divine masculine and feminine within you.")
 ]
+
+# Choose a random Universal Law
+law, focus = random.choice(universal_laws)
+
+print("\n🌀 Universal Law Focus: ", law)
+print("🧭 Reflection: ", focus)
